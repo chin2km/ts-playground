@@ -1,0 +1,24 @@
+{
+  "name": "check24-challange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watch ./scripts/start",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.14",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2",
+    "watch": "^1.0.2"
+  }
+}
