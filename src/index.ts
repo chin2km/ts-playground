@@ -1,1 +1,3 @@
-console.log("Test")
+import { dynamicImports } from './dynamicImports.tryout';
+
+dynamicImports();
