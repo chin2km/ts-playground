@@ -2,21 +2,18 @@
   "compilerOptions": {
     "outDir": "dist",
     "module": "commonjs",
-    "target": "es5",
+    "declaration": true,
+    "target": "ESNext",
     "lib": ["es6", "dom"],
-    "sourceMap": true,
-    "allowJs": true,
-    "jsx": "react",
     "moduleResolution": "node",
     "rootDir": "src",
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "strictNullChecks": true,
     "esModuleInterop": true,
-    "typeRoots": ["./node_modules/@types"]
+    "removeComments": true,
   },
   "include": ["src"],
-  "exclude": ["node_modules"],
-  "types": ["jest"]
+  "exclude": ["**/*.test.ts"]
 }

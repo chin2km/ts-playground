@@ -4,6 +4,4 @@ set -e
 export PATH=node_modules/.bin:$PATH
 
 clear
-echo "Watching src/index.ts ↓"
-echo "Output:"
-ts-node src/index.ts
+node dist/index.js
